@@ -1,0 +1,9 @@
+class FaceSerum{
+public static void main(String[]goodvibes){
+System.out.println("A POTENT STABLE VITAMIN C FACE SERUM: Not all Vit C serums are made equal! This serum is is made with a stable Vitamin C derivative, 10% Ethyl Ascorbic Acid that is closest to pure Vitamin C (L-Ascorbic Acid) in molecular size and weight. With similar molecule size and 86% pure Vitamin C content it delivers maximum benefits of Vitamin C without getting bad or losing efficacy till the last drop (unlike other Vitamin C serums).");
+System.out.println("NATURAL GLOW BOOSTER: This glow serum ensures high delivery of Vit C directly into your skin. Vit C reduces melanin production resulting glowing skin. Reduces dullness & tanning and protects from environmental stress such as pollution & sun damage.");
+System.out.println("SOOTHING & HYDRATING: Formulated with Centella water that soothes and calms skin making this formula non-irritating and suitable for all skin types. 1% Acetyl Glucosamine added in this serum boosts your hydration and natural exfoliation for a plum radiant skin.");
+System.out.println("CLEAN & TRANSPARENT BEAUTY: This serum is (i) Fragrance-free (ii) Silicones-free (iii) Sulfates-free (iv) Parabens-free (v) Essential Oils-free and (vi) Dyes-free. Also, it is non-comedogenic, oil-free, and hypoallergenic. Formulated at pH 3.9 - 4.9 formulated with high grade COS-VCE (Ethyl Ascorbic Acid) by CosMol Korea, a leading global supplier.");
+System.out.println("FOR ALL SKIN TYPES: This serum is suitable for all skin types (Dry, Oily or Normal). Formulated for both men and women. With anti-inflammatory Centella water it is suitable for even sensitive skin.");
+}
+}

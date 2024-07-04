@@ -1,0 +1,6 @@
+class Drum{
+public static void main(String[]alesis){
+System.out.println("Professionally recorded sounds from the BFD drum library Bluetooth audio streaming for wireless music play along Built-in device holder for easy access to your music and drum lessons 32 ready to play BFD classic and modern kits 16 User kits 440 drum cymbal and percussion sounds 60 built in play along tracks sequencer metronome and performance recorder USB/MIDI connection for virtual instruments and recording software 18 stereo aux input 4 stereo line outputs and 18 headphone output");
+System.out.println("Premium mesh drum heads for a quiet yet natural response Large 10 dual zone mesh snare for maximum playability 38 mesh single zone tom pads Kick drum tower with kick drum pedal 10 crash cymbal with choke 10 ride and 10 hi-hat with foot controller 4 post aluminum rack for maximum stability and flexibility Connection cables drum sticks drum key and power supply included Maximize your kit with an additional tom and cymbal with the Nitro Max Expansion Kit not included");
+}
+}
