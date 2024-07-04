@@ -1,14 +1,28 @@
-class Clothes{
-	public static void main(String[]HM){
-		System.out.println("clothing is made of fabrics or textiles.");
-		System.out.println("Clothing is any item worn on the body.");
-		System.out.println("Clothing also hybridizes into a personal transportation system.");
-		System.out.println("Clothing can insulate against cold or hot conditions.");
-		System.out.println("Clothing has significant social factors as well.");
-		
-	}
-}
 
-					
-																																			
-																				
+class Clothes{
+	
+    public static void main(String[]zudio){
+	
+	String womens = "kurta];.//.,jhgfghjklop[;lkjhtgrfenhmj,k.l-098765432";
+	int price = 7788;
+	boolean discount = true;
+	short modelNumber = 89;
+	long length = 78899066l;
+	float measurement = 8.9907778f ;
+	double  size = 7.07654456d ;
+	char category= 'a';
+	byte age = 46 ;
+	
+	
+	System.out.println("string:"+ womens);
+	System.out.println("int:"+price);
+	System.out.println("boolean:"+discount);
+	System.out.println("short:"+modelNumber);
+	System.out.println("long:"+length);
+	System.out.println("float:"+measurement);
+	System.out.println("double:"+size);
+	System.out.println("char:"+category);
+	System.out.println("byte:"+age);
+	
+}
+}
