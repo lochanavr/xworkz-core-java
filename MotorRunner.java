@@ -1,9 +1,9 @@
-class TelevisionRunner{
+class MotorRunner{
 
 public static void main(String[]lg){
 	System.out.println("Main started");
-	Television.turnOn();
-	Television.turnOff();
+	Motor.turnOn();
+	Motor.turnOff();
 	System.out.println("Main ended");
    }	
 }

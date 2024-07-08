@@ -1,4 +1,4 @@
-class Television{
+class Motor{
      
 	  static boolean isConnected = false;
 	  
@@ -6,7 +6,7 @@ class Television{
 		  System.out.println("Start of turnOn");
 		   if(isConnected == false){
 			   isConnected = true;
-			   System.out.println("Television is turned on");
+			   System.out.println("Motor is turned on");
 		   }
 		   System.out.println("end of turnOn");
 	  }
@@ -16,7 +16,7 @@ class Television{
 	   System.out.println("Start of turnOff");
 		   if(isConnected == true){
 			   isConnected = false;
-			   System.out.println("Television is turned off");
+			   System.out.println("Motor is turned off");
 		   }
 		   System.out.println("end of turnOff");
 		   return isConnected;
