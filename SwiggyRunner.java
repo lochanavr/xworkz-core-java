@@ -1,11 +1,10 @@
 class SwiggyRunner{
-	
-	public static void main(String[]menu){
+public static void main(String[]menu){
 		System.out.println("Main started");
 		
-		String foodName="jeera rice";
-		double findFoodPrice= Swiggy.findFoodPrice(foodName);
-		System.out.println("The cost of "+foodName+" is "+findFoodPrice);
+		String foodName="idly";
+		double search= Swiggy.search(foodName,2);
+		System.out.println("The cost of "+foodName+" is "+search);
 		System.out.println("Main ended");
 	}
 }

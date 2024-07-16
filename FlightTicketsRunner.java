@@ -4,8 +4,8 @@ class FlightTicketsRunner{
 		
 		System.out.println("Main started");
 		
-		String destinationName="Chhatrapathi Shivaji international airport";
-		double findTicketPriceFromBengaluru = FlightTickets.findTicketPriceFromBengaluru(destinationName);
+		String destinationName="Chennai International Airport";
+		double findTicketPriceFromBengaluru = FlightTickets.findTicketPriceFromBengaluru(destinationName,2);
 		System.out.println("The price of ticket to "+destinationName+" is "+findTicketPriceFromBengaluru);
 		System.out.println("Main ended");
 	}

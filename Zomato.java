@@ -1,95 +1,41 @@
 class Zomato{
+	static double itemPrice=0.0;
 	public static double findItemPrice(String itemName){
-		double itemPrice=0.0;
+		
 		System.out.println("Items Started");
-		if(itemName=="Panner buttermasala"){
-			itemPrice=78.28;
-			return itemPrice;
-		}
-		if(itemName=="kadai panner"){
-			itemPrice=66.90;
-			return itemPrice;
-		}
-		if(itemName=="Matar panner"){
-			itemPrice=93.25;
-			return itemPrice;
-		}
-		if(itemName=="Roti"){
-			itemPrice=37.93;
-			return itemPrice;
-		}
-		if(itemName=="Kulcha"){
-			itemPrice=10.38;
-			return itemPrice;
-		}
-		if(itemName=="Butter nan"){
-			itemPrice=64.39;
-			return itemPrice;
-		}
-		if(itemName=="Kaju masala"){
-			itemPrice=84.38;
-			return itemPrice;
-		}
-		if(itemName=="Panner tikka"){
-			itemPrice=94.78;
-			return itemPrice;
-		}
-		if(itemName=="Mushroom fried rice"){
-			itemPrice=89.97;
-			return itemPrice;
-		}
-		if(itemName=="Veg Briyani"){
-			itemPrice=99.35;
-			return itemPrice;
-		}
-		if(itemName=="Panner fried rice"){
-			itemPrice=67.26;
-			return itemPrice;
-		}
-		if(itemName=="Mixed Veg dal"){
-			itemPrice=90.23;
-			return itemPrice;
-		}
-		if(itemName=="Dal rice"){
-			itemPrice=67.39;
-			return itemPrice;
-		}
-		if(itemName=="Ghee rice"){
-			itemPrice=20.90;
-			return itemPrice;
-		}
-		if(itemName==""){
-			itemPrice=24.39;
-			return itemPrice;
-		}
-		if(itemName=="Rajma"){
-			itemPrice=90.35;
-			return itemPrice;
-		}
-		if(itemName=="Chole bature"){
-			itemPrice=44.39;
-			return itemPrice;
-		}
-		if(itemName=="panner burji"){
-			itemPrice=35.33;
-			return itemPrice;
-		}
-		if(itemName=="hyderabadi panner"){
-			itemPrice=56.46;
-			return itemPrice;
-		}
-		if(itemName=="panner roll"){
-			itemPrice=36.45;
-			return itemPrice;
-		}
-		if(itemName=="panner 65"){
-			itemPrice=89.56;
-			return itemPrice;
-		}
+		if(itemName=="Panner buttermasala")return itemPrice=78.28;
+		if(itemName=="kadai panner")return itemPrice=66.90;
+		if(itemName=="Matar panner")return itemPrice=93.25;
+		if(itemName=="Roti")return itemPrice=37.93;
+		if(itemName=="Kulcha")return itemPrice=10.38;
+		if(itemName=="Butter nan")return itemPrice=64.39;
+		if(itemName=="Kaju masala")return itemPrice=84.38;
+		if(itemName=="Panner tikka")return itemPrice=94.78;
+		if(itemName=="Mushroom fried rice")return itemPrice=89.97;
+		if(itemName=="Veg Briyani")return itemPrice=67.26;
+		if(itemName=="Panner fried rice")return itemPrice=67.26;
+		if(itemName=="Mixed Veg dal")return itemPrice=90.23;
+		if(itemName=="Dal rice")return itemPrice=67.39;
+		if(itemName=="Ghee rice")return itemPrice=20.90;
+		if(itemName=="")return itemPrice=24.39;
+		if(itemName=="Rajma")return itemPrice=90.35;
+		if(itemName=="Chole bature")return itemPrice=44.39;
+		if(itemName=="panner burji")return itemPrice=35.33;
+		if(itemName=="hyderabadi panner")return itemPrice=56.46;
+		if(itemName=="panner roll")return itemPrice=36.45;	
+		if(itemName=="panner 65")return itemPrice=89.56;
+		
 		else{
 			System.out.println(itemName+"");
 		}
 		System.out.println("Items ended");
 		return itemPrice;
 	}
+	public static double findItemPrice(String itemName, int quantity){
+	quantity =2;
+	if(itemName=="panner 65") return itemPrice=40.24*2;
+	else{
+		return itemPrice=0.0;
+	}
+   }
 }
