@@ -1,4 +1,5 @@
 class MotorRunner{
+	
 static boolean connect ;
 public static void main(String[]tata){
 	System.out.println("Main started");
@@ -14,7 +15,7 @@ public static void main(String[]tata){
 			Motor.increaseSpeed();
 			Motor.increaseSpeed();
 			Motor.increaseSpeed();
-			Motor.increaseSpeed();
+			Motor.decreaseSpeed();
 			Motor.decreaseSpeed();
 			Motor.decreaseSpeed();
 			Motor.decreaseSpeed();

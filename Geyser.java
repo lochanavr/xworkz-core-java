@@ -1,51 +1,50 @@
 class Geyser{
      
-	  static boolean isConnected = false;
-	   static int maxTemperature = 7;
-	  static int currentTemperature = 0;
-	  static int minTemperature   = 0;
+	static boolean isConnected = false;
+	   static int maxSpeed  	= 12;
+	  static int currentSpeed = 5;
+	  static int minSpeed    = 7;
 	  
-	  
-	   public static boolean onOrOff(){
+	 public static boolean onOrOff(){
 		  System.out.println("Start of onOrOff");
-		   if(!isConnected)isConnected = true;
-	  else if(!isConnected)isConnected = false;
-		   return isConnected;
-	  }
-	  
-	  public static void increaseTemperature(){
-			System.out.println("increaseTemperature started");
-		if(isConnected){
-			if(currentTemperature<maxTemperature){
-				currentTemperature++;
-				System.out.println("current temperature is "+currentTemperature);
-			}
-			else{
-				System.out.println("max temperature reached");
-			}
+		  isConnected = (isConnected == false) ? true:false;
+				    System.out.println("end of onOrOff");
+		  return isConnected;
+	 }
+	 
+	 public static void increaseSpeed(){
+		System.out.println("increaseSpeed started");
+	if(isConnected){
+		if(currentSpeed<maxSpeed){
+			currentSpeed++;
+			System.out.println("current speed is "+currentSpeed);
 		}
 		else{
-			System.out.println("please turn on the geyser");
+			System.out.println("max speed reached");
 		}
-		System.out.println("increaseTemperature ended");
-	return ;	
 	}
-	
-	public static void decreaseTemperature(){
-		System.out.println("decreaseTemperature started");
-		if(isConnected){
-			if(currentTemperature>minTemperature){
-				currentTemperature--;
-				System.out.println("current temperature is "+currentTemperature);
-			}
-			else{
-				System.out.println("min temperature reached");
-			}
+	else{
+		System.out.println("please turn on the Geyser");
+	}
+	System.out.println("increaseSpeed ended");
+return ;	
+}
+	public static void decreaseSpeed(){
+		System.out.println("decreaseSpeed started");
+	if(isConnected){
+		if(currentSpeed>minSpeed){
+			currentSpeed--;
+			System.out.println("current Speed is "+currentSpeed);
 		}
 		else{
-			System.out.println("please turn on the geyser");
+			System.out.println("min speed reached");
 		}
-		System.out.println("decreaseTemperature ended");
-	return ;	
-		}
+	}
+	else{
+		System.out.println("please turn on the Geyser");
+	}
+	System.out.println("decreaseSpeed ended");
+return ;
+		
+	}
 }

@@ -1,4 +1,5 @@
 class DishWasherRunner{
+
 static boolean connect ;
 	public static void main(String[]ifb){
 	System.out.println("main started");
@@ -14,7 +15,7 @@ static boolean connect ;
 			DishWasher.increaseSpeed();
 			DishWasher.increaseSpeed();
 			DishWasher.increaseSpeed();
-			DishWasher.increaseSpeed();
+			DishWasher.decreaseSpeed();
 			DishWasher.decreaseSpeed();
 			DishWasher.decreaseSpeed();
 			DishWasher.decreaseSpeed();

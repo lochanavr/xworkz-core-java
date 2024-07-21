@@ -16,7 +16,7 @@ public static void main(String[]redfm)
 			Radio.increaseSpeed();
 			Radio.increaseSpeed();
 			Radio.increaseSpeed();
-			Radio.increaseSpeed();
+			Radio.decreaseSpeed();
 			Radio.decreaseSpeed();
 			Radio.decreaseSpeed();
 			Radio.decreaseSpeed();

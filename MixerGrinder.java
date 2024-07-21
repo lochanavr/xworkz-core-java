@@ -1,38 +1,36 @@
 class MixerGrinder{
      
 	  static boolean isConnected = false;
-	  static int maxSpeed =5;
-	  static int currentSpeed = 1;
-	  static int minSpeed = 2;
+	   static int maxSpeed  	= 12;
+	  static int currentSpeed = 5;
+	  static int minSpeed    = 7;
 	  
-	  public static boolean onOrOff(){
+	 public static boolean onOrOff(){
 		  System.out.println("Start of onOrOff");
-		  if(!isConnected)isConnected=true;
-		  else if(!isConnected)isConnected=false;
-		  System.out.println("end of onOrOff");
+		  isConnected = (isConnected == false) ? true:false;
+				    System.out.println("end of onOrOff");
 		  return isConnected;
-	  }
-	  
-	  public static void increaseSpeed(){
-		  System.out.println("Start of increase Speed");
-		  if(isConnected){
-			  if(currentSpeed<maxSpeed){
-				  currentSpeed++;
-				  System.out.println("current Speed is "+currentSpeed);
-			  }
-			  else{
-				  System.out.println("max speed reached");
-		  }
-	  }
-	  else{
-		  System.out.println("please turn on the Mixer Grinder");
-	  }
-	  System.out.println("increase speed ended");
-	  return;
+	 }
+	 
+	 public static void increaseSpeed(){
+		System.out.println("increaseSpeed started");
+	if(isConnected){
+		if(currentSpeed<maxSpeed){
+			currentSpeed++;
+			System.out.println("current speed is "+currentSpeed);
+		}
+		else{
+			System.out.println("max speed reached");
+		}
+	}
+	else{
+		System.out.println("please turn on the MixerGrinder");
+	}
+	System.out.println("increaseSpeed ended");
+return ;	
 }
-
-    public static void decreaseSpeed(){
-		System.out.println("decrease Speed started");
+	public static void decreaseSpeed(){
+		System.out.println("decreaseSpeed started");
 	if(isConnected){
 		if(currentSpeed>minSpeed){
 			currentSpeed--;
@@ -43,9 +41,10 @@ class MixerGrinder{
 		}
 	}
 	else{
-		System.out.println("please turn on Mixer Grinder");
+		System.out.println("please turn on the MixerGrinder");
 	}
-	System.out.println("decrease Speed ended");
-return ;	
-	}  
+	System.out.println("decreaseSpeed ended");
+return ;
+		
+	}
 }

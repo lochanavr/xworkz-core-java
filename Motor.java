@@ -1,13 +1,12 @@
 class Motor{
-static boolean isConnected = false;
-	   static int maxSpeed  	= 5;
-	  static int currentSpeed = 3;
-	  static int minSpeed    = 2;
+   static boolean isConnected = false;
+	   static int maxSpeed  	= 12;
+	  static int currentSpeed = 5;
+	  static int minSpeed    = 7;
 	  
 	 public static boolean onOrOff(){
 		  System.out.println("Start of onOrOff");
-		  if(!isConnected)isConnected = true;
-	               else if(!isConnected)isConnected = false;
+		  isConnected = (isConnected == false) ? true:false;
 				    System.out.println("end of onOrOff");
 		  return isConnected;
 	 }
@@ -24,7 +23,7 @@ static boolean isConnected = false;
 		}
 	}
 	else{
-		System.out.println("please turn on the motor");
+		System.out.println("please turn on the Motor");
 	}
 	System.out.println("increaseSpeed ended");
 return ;	
@@ -41,7 +40,7 @@ return ;
 		}
 	}
 	else{
-		System.out.println("please turn on the dish motor");
+		System.out.println("please turn on the Motor");
 	}
 	System.out.println("decreaseSpeed ended");
 return ;

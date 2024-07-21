@@ -1,10 +1,9 @@
 class MixerGrinderRunner{
-
 static boolean connect ;
 public static void main(String[]preethi){
 	System.out.println("Main started");
 	connect = MixerGrinder.onOrOff();
-	System.out.println("is MixerGrinderconnected :"+connect);
+	System.out.println("is MixerGrinder connected :"+connect);
 	MixerGrinder.increaseSpeed();
 		connect = MixerGrinder.onOrOff();
 	    System.out.println("is MixerGrinder connected :"+connect);
@@ -15,8 +14,7 @@ public static void main(String[]preethi){
 			MixerGrinder.increaseSpeed();
 			MixerGrinder.increaseSpeed();
 			MixerGrinder.increaseSpeed();
-			MixerGrinder.increaseSpeed();
-			
+			MixerGrinder.decreaseSpeed();
 			MixerGrinder.decreaseSpeed();
 			MixerGrinder.decreaseSpeed();
 			MixerGrinder.decreaseSpeed();
