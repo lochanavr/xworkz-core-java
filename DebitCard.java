@@ -18,4 +18,13 @@ class DebitCard{
 	this.expDate = expDate;
 	this.cvv = cvv;
 }
+
+public void getInfo(){
+	System.out.println("----------------------------");
+		System.out.println("Card Id is "+this.cardId);
+		System.out.println("Card holder name is "+this.cardHolderName);
+		System.out.println("CardNo is "+this.cardNo);
+		System.out.println("Card expiry date is "+this.expDate);
+		System.out.println("Card cvv is "+this.cvv);
+}
 }

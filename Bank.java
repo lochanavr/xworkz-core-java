@@ -21,4 +21,15 @@ class Bank{
 	    this.noOfWorker=noOfWorker;
         this.branchManager=branchManager;
 	}
+	
+	public void getInfo(){
+	System.out.println("-------------------------------");
+	System.out.println("Customer id is "+this.id);
+	System.out.println("Customer name is "+this.name);
+	System.out.println("Bank branch name is "+this.branchName);
+	System.out.println("Bank ifscCode is "+this.ifscCode);
+	System.out.println("Bank swiftCode is "+this.swiftCode);
+	System.out.println("Number of workers is"+this.noOfWorker);
+	System.out.println("Branch manager is "+this.branchManager);
+	}
 }
